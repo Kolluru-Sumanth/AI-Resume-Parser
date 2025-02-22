@@ -12,7 +12,7 @@ const storage=multer.diskStorage({
         return cb(null,'./uploads');
     },
     filename:(req,file,cb)=>{
-        return cb(null,`${Date.now()}-${file.originalname}`);
+        return cb(null,`${Date.now()}${file.originalname}`);
     }
 })
 const fileFilter = (req, file, cb) => {
