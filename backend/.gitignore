@@ -21,7 +21,6 @@ dist/
 build/
 
 # Uploads (if using Multer for file uploads)
-uploads/
 
 # MongoDB data (if using local MongoDB)
 data/db/
